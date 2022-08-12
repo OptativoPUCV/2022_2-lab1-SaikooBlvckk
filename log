@@ -108,3 +108,9 @@ In file included from test.c:2:
       |              ^~~~~~
 Compilation failed
 c8a7955
+Fri 12 Aug 2022 07:54:15 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+fb0ed98
