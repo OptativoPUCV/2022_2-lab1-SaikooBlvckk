@@ -133,3 +133,19 @@ Fri 12 Aug 2022 07:59:00 PM UTC:
  tests:  4|3
 total_score: 40/70
 a0c93cb
+Fri 12 Aug 2022 08:01:31 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:10: error: incompatible types when assigning to type ‘Vector’ from type ‘int’
+   99 |   v[i] = valor
+      |          ^~~~~
+exercises.c:99:15: error: expected ‘;’ before ‘}’ token
+   99 |   v[i] = valor
+      |               ^
+      |               ;
+  100 | }
+      | ~              
+Compilation failed
+e61737c
