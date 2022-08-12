@@ -149,3 +149,13 @@ exercises.c:99:15: error: expected ‘;’ before ‘}’ token
       | ~              
 Compilation failed
 e61737c
+Fri 12 Aug 2022 08:01:36 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:10: error: incompatible types when assigning to type ‘Vector’ from type ‘int’
+   99 |   v[i] = valor;
+      |          ^~~~~
+Compilation failed
+feed699
