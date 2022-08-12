@@ -114,3 +114,16 @@ Fri 12 Aug 2022 07:54:15 PM UTC:
  tests:  3|4
 total_score: 30/70
 fb0ed98
+Fri 12 Aug 2022 07:58:47 PM UTC: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:88:43: error: expected ‘;’ before ‘v’
+   88 |   v->datos = (int *)calloc(n, sizeof(int))
+      |                                           ^
+      |                                           ;
+   89 |   v->capacidad = n;
+      |   ~                                        
+Compilation failed
+fe2e43d
