@@ -10,3 +10,14 @@ Fri 12 Aug 2022 01:20:24 PM UTC:
  tests:  1|6
 total_score: 10/70
 935d56d
+Fri 12 Aug 2022 01:25:22 PM UTC: 
+ exercises.c | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:48:17: error: ‘aux’ undeclared (first use in this function)
+   48 |   *suma = sumaN(aux, m);
+      |                 ^~~
+exercises.c:48:17: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+e4e0d8c
