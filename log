@@ -185,3 +185,9 @@ Fri 12 Aug 2022 08:16:02 PM UTC:
  1 file changed, 2 insertions(+), 2 deletions(-)
  tests:  0|0
 8a90e86
+Fri 12 Aug 2022 08:17:09 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  6|2
+total_score: 50/70
+9ca63ab
