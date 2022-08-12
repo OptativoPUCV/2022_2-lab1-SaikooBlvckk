@@ -211,3 +211,16 @@ exercises.c:130:6: error: expected identifier before ‘[’ token
       |      ^
 Compilation failed
 376375c
+Fri 12 Aug 2022 08:42:17 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:119:44: error: expected ‘;’ before ‘}’ token
+  119 |     c->datos[i] = a->datos[i] + b->datos[i]
+      |                                            ^
+      |                                            ;
+  120 |   }
+      |   ~                                         
+Compilation failed
+6ead192
