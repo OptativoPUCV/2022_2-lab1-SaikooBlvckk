@@ -50,3 +50,16 @@ exercises.c:68:16: error: expected expression before ‘]’ token
       |                ^
 Compilation failed
 d6c5a15
+Fri 12 Aug 2022 07:44:10 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:67:22: error: expected expression before ‘]’ token
+   67 |   p->nombre = nombre[];
+      |                      ^
+exercises.c:68:16: error: expected expression before ‘]’ token
+   68 |   p->rut = rut[];
+      |                ^
+Compilation failed
+5f8c5e5
