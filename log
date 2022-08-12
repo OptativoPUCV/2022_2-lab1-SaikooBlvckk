@@ -127,3 +127,9 @@ exercises.c:88:43: error: expected ‘;’ before ‘v’
       |   ~                                        
 Compilation failed
 fe2e43d
+Fri 12 Aug 2022 07:59:00 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+a0c93cb
