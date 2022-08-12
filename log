@@ -37,3 +37,16 @@ Fri 12 Aug 2022 01:27:22 PM UTC:
  tests:  2|5
 total_score: 20/70
 a9d228d
+Fri 12 Aug 2022 07:43:57 PM UTC: 
+ exercises.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:67:3: error: expected ‘,’ or ‘;’ before ‘p’
+   67 |   p->nombre = nombre[];
+      |   ^
+exercises.c:68:16: error: expected expression before ‘]’ token
+   68 |   p->rut = rut[];
+      |                ^
+Compilation failed
+d6c5a15
