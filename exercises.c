@@ -37,10 +37,10 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-  int i = m, j = 0;
+  int i = 10, j = 0;
   int * aux = (int *)malloc(sizeof(int) * m);
   
-  for (;i > 0; i--, j++){
+  for (;j < i; i--, j++){
     aux[j] = a[i];
   }
   *suma = sumaN(aux, m);
