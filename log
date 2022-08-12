@@ -165,3 +165,18 @@ Fri 12 Aug 2022 08:04:03 PM UTC:
  tests:  4|3
 total_score: 40/70
 eab01d4
+Fri 12 Aug 2022 08:15:20 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:14: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+   99 |   v[i].datos = valor;
+      |              ^
+exercises.c: In function ‘obtenerValor’:
+exercises.c:108:14: error: returning ‘int *’ from a function with return type ‘int’ makes integer from pointer without a cast [-Werror=int-conversion]
+  108 |   return v[i].datos;
+      |          ~~~~^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+8728a72
