@@ -76,3 +76,9 @@ exercises.c:68:10: error: assignment to expression with array type
       |          ^
 Compilation failed
 84c66bd
+Fri 12 Aug 2022 07:46:45 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  3|4
+total_score: 30/70
+b850309
